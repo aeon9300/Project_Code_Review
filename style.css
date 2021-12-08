@@ -1,0 +1,59 @@
+image{
+    justify-content: center;
+    align-items : center;
+}
+  
+  h1{
+    font-style: bold;
+    font-size: 20px;
+  }
+  
+  div.main-body{
+    display:grid;
+    grid-template-columns:minmax(200px,auto) 1fr;
+    grid-template-areas: "navbar mainContent";
+    grid-gap: 20px;
+  }
+  
+  nav#navbar{
+    grid-area: navbar;
+   
+  }
+  
+  main#main-doc{
+    grid-area: mainContent;
+  }
+  
+  nav#navbar a{
+    display:block;
+    border:1px solid Black;
+    padding: 5px;
+    margin: 10px 0;
+    text-decoration: none;
+    color: black;
+  
+  }
+  
+  header{
+    font-size: 1.5rem;
+    font-weight: bold;
+  
+  }
+  
+  code{
+    background-color: #ccc;
+    padding: 20px;
+    display: blaock;
+  }
+  
+  
+  @media screen and (max-width :750px){
+    div.main-body{
+      grid-template-columns: 1fr;
+      grid-template-areas:"navbar" "mainContent";
+    }
+    nav#navbar{
+      position:inherit;
+    }
+    }
+  
