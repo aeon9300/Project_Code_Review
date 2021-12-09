@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <title>Document</title>
 </head>
 <body>
 
   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
-       <div class="main-body">
+      <div class="main-body">
         <nav id="navbar">
           <header>Front-End Technologies Web Development Documentation</header>
           <a href="#Introduction" class="nav-link">Introduction</a>
@@ -26,13 +26,18 @@
 
         <main id="main-doc">
             <section class="main-section" id="Introduction">
-              <header>Introduction</header>
-              <h1>Welcome to the first day of your web development short course,
-                 and congratulations on taking your first step towards becoming a 
-                 fully-fledged web developer!</h1>
+              <header>
+                <h2>Introduction</h2>
+              </header>
+              
+              <p>Welcome to the first day of your web development short course,
+              and congratulations on taking your first step towards becoming a 
+              fully-fledged web developer!</p>
             </section>
             <section class="main-section" id="Html-Introduction">
-                <header>Html-Introduction</header>
+              <header>
+                <h2>Html-Introduction</h2>
+              </header>               
                 <ul>
                   <li>HTML stands for Hyper Text Markup Language</li>
                   <li> HTML is the standard markup language for creating Web pages</li>
@@ -43,19 +48,20 @@
                 </ul>
               </section>
               <section class="main-section" id="CSS-Introduction">
-                <header>CSS-Introduction</header>
-                <p>
+                <header>
+                  <h2>CSS-Introduction</h2>
+                </header>
                   <ul>
-                    <li>CSS is the language we use to style an HTML document.      
-                      
-                     </li>
+                    <li>CSS is the language we use to style an HTML document.     
                     <li>CSS describes how HTML elements should be displayed.</li>
                     <li>This tutorial will teach you CSS from basic to advanced.</li>
                   </ul>
-                </p>
+              
               </section>
               <section class="main-section" id="JS-Introduction">
-                <header>Javascript Introduction</header>
+                <header>
+                  <h2>Javascript Introduction</h2>
+                </header>
                 <p> JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight language. Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide programmatic
                   control over them.</p>
                 <p>JavaScript contains a standard library of objects, such as Array, Date, and Math, and a core set of language elements such as operators, control structures, and statements. Core JavaScript can be extended for a variety of purposes by supplementing
@@ -70,50 +76,50 @@
               </section>   
               
               <section class="main-section" id="HTML-Topics">
-                <header>Html Topics</header>
-                <p>Few List of Tgas In Html</p>
-                <img id="image" src="./html tags.jpg" alt="Html Tgs List">
+                <header>
+                  <h2>Html Topics</h2>
+                </header>
+                <p>Few List of Tags in Html</p>
+                <img id="image" src="asset/html_tags.jpg" alt="Html Tgs List">
               </section>
+            
               <section class="main-section" id="CSS-Topics">
-                <header>CSS Topics</header>
+                <header>
+                  <h2>CSS Topics</h2>
+                </header>
                 <p>CSS Selectors</p>
-                <p>
                   <ul>
                     <li>The selector points to the HTML element you want to style.</li>
-            
                     <li>The declaration block contains one or more declarations separated by semicolons.</li>
-                  
-                   <li>Each declaration includes a CSS property name and a value, separated by a colon.</li>
-                  
-                 <li> Multiple CSS declarations are separated with semicolons, and declaration blocks are surrounded by curly braces.</p>
-                 </li> </ul><code>p {
-                  color: red;
-                  text-align: center;
-                }
+                    <li>Each declaration includes a CSS property name and a value, separated by a colon.</li>
+                    <li> Multiple CSS declarations are separated with semicolons, and declaration blocks are surrounded by curly braces.</li>
+                  </ul>
+                  <code>p {
+                    color: red;
+                    text-align: center;
+                  }
                 </code>
-                <ul>
+              <ul>
                   <li>Inline CSS :
                     <p>To add inline CSS in HTML, use the style attribute. The style attribute specifies an inline style for an element.
-                        The attribute is used with CSS properties such as font-family, font-style, text-decoration,
-             direction, etc. Just keep in mind, the usage of style attribute overrides any style set globally.</p>
-        </li>
-        <li>Extrenal CSS :
-          <p>The external style sheet is generally used when you want to make changes on multiple pages. It is ideal for this condition because it facilitates you to change the look of the entire web site by changing just one file.
+                      The attribute is used with CSS properties such as font-family, font-style, text-decoration,
+                      direction, etc. Just keep in mind, the usage of style attribute overrides any style set globally.</p>
+                  </li>
+                  <li>External CSS :
+                    <p>The external style sheet is generally used when you want to make changes on multiple pages. It is ideal for this condition because it facilitates you to change the look of the entire web site by changing just one file.
   
-            It uses the <link> tag on every pages and the <link> tag should be put inside the head section.<br>
-          <code>
-         
-            link rel="stylesheet" type="text/css" href="mystyle.css"
-            
-           </code>
-          </p>
-  
-        </li>
-      </ul>
-              </section>
+                  It uses the "link" tag on every pages and the "link" tag should be put inside the head section.<br>
+              </p></li>
+              <code>
+                link rel="stylesheet" type="text/css" href="mystyle.css"
+              </code>
+            </ul>
+          </section>
 
               <section class="main-section" id="JS-Topics">
-                <header>Javascript Topics</header>
+                <header>
+                  <h2>Javascript Topics</h2>
+                </header>
                       <p>Scope: <br></p>
                       <p>Scope determines the accessibility (visibility) of variables.
             
@@ -137,15 +143,8 @@
                         <p> A JavaScript function is a block of code designed to perform a particular task.
             
                           A JavaScript function is executed when "something" invokes it (calls it).</p>
-                         
-                        </section>
-            
-          
-    </main>
-        
-
-    </div>
-
-    
+              </section>          
+        </main>
+      </div>
 </body>
 </html>
